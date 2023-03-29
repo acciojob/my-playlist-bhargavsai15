@@ -12,8 +12,8 @@
             text-decoration: none;
             color: black;
         }
-		.player_one > ul{
-			list-style:none;
+		.player_one > ul > li{
+			list-style-type:none;
 		}
         .player_two{
             background-color: white;
