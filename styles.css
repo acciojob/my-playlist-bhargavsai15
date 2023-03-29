@@ -6,14 +6,15 @@
             background-color: white;
             display: flex;
             flex-direction: column;
-            padding: 10px;
             border: 1px solid black;
         }
-        .player_one > a{
+        .player_one > ul > li >a{
             text-decoration: none;
             color: black;
-
         }
+		.player_one > ul{
+			list-style:none;
+		}
         .player_two{
             background-color: white;
             position: relative;
