@@ -1,1 +1,26 @@
 /*  your css code here. If applicable */
+ body{
+            background-color: #cccccc;
+        }
+        .player_one{
+            background-color: white;
+            display: flex;
+            flex-direction: column;
+            padding: 10px;
+            border: 1px solid black;
+        }
+        .player_one > a{
+            text-decoration: none;
+            color: black;
+
+        }
+        .player_two{
+            background-color: white;
+            position: relative;
+            left: 40%;
+            display: inline-flex;
+            flex-direction: column;
+            padding: 10px;
+            border: 1px solid black;
+        }
+        
